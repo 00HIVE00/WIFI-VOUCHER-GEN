@@ -32,8 +32,8 @@ function ExportPDF({
     paperSize: 'a4',
     columns: 2,
     rows: 5,
-    margin: 5,
-    spacing: 2
+    margin: 3,
+    spacing: 4
   })
   
   const layoutSettings = externalLayoutSettings || internalLayoutSettings
